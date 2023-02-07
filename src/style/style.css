@@ -1,0 +1,14 @@
+body{background-color: #FFF2F2;}
+.clearfix::after{content:""; display: table; clear: both;}
+.container{max-width: 1600px; margin: 0 auto;}
+
+.header{background-color: #8EA7E9; padding: 20px 0; margin-bottom: 50px;}
+.header h1{text-align: center; font-weight: 800; font-size: 30px; color: #FFF2F2;}
+
+.expense-item{background-color: white; box-shadow: 1px 1px 1px #cccccc; margin-bottom: 10px;}
+.expense-item:last-child{margin-bottom: 0;}
+.expense-itembox{ display: table; width: 100%;}
+.expense-info{display: table-cell; width: calc(100% - 150px); padding: 20px 0 20px 20px;}
+.expense-info h1{font-weight: 400; margin-bottom: 20px; font-size: 14px; color: #ccc;}
+.expense-info p{font-weight: 800; font-size: 20px; }
+.expense-price{display: table-cell; color: white; background-color: #7286D3; font-weight: 600; padding: 20px; width: 100px; text-align: center; vertical-align: middle;}
